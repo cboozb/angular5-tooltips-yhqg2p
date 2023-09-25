@@ -1,0 +1,7 @@
+p {
+  font-family: Lato;
+}
+ ::ng-deep .tooltip-inner{
+  max-height: 50px !important;
+  overflow-x: auto;
+}

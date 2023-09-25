@@ -1,0 +1,23 @@
+<table>
+	<tr (mouseleave)="tooltip.close()" style="background-color:gray">
+		<td>
+			<span style="padding:10px ;background-color:red;" ngbTooltip="1What a great tip!" autoClose="false" 
+      placement="right" triggers="manual" #tooltip="ngbTooltip" (mouseenter)="tooltip.open()" (mouseleave)="tooltip.close()"  > anddfsddf </span>
+
+		</td>
+    <td>
+			<span style="padding:10px ;background-color:red;" ngbTooltip="2What a great tip!" autoClose="false" 
+      placement="right" triggers="manual" #tooltip="ngbTooltip" (mouseenter)="tooltip.open()"  (mouseleave)="tooltip.close()"> and2 </span>
+
+		</td>
+    <td>
+			<span style="padding:10px ;background-color:red;" ngbTooltip="sdasdadWhat a great tip!" autoClose="false" 
+      placement="right" triggers="manual" #tooltip="ngbTooltip" (mouseenter)="tooltip.open()"  > and1 </span>
+
+		</td>
+
+		<!-- <td (mouseleave)="t2.close()">
+     <span style="padding:10px ;background-color:red;" ngbTooltip="What a great tip!" autoClose="false" triggers="manual" #t2="ngbTooltip" (mouseenter)="open()" > aqqqnd </span>
+      </td> -->
+	</tr>
+</table>
